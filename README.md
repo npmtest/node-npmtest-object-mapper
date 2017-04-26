@@ -1,6 +1,6 @@
 # npmtest-object-mapper
 
-#### test coverage for  [object-mapper (v3.0.1)](https://github.com/wankdanker/node-object-mapper#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-object-mapper.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-object-mapper) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-object-mapper.svg)](https://travis-ci.org/npmtest/node-npmtest-object-mapper)
+#### basic test coverage for  [object-mapper (v3.0.1)](https://github.com/wankdanker/node-object-mapper#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-object-mapper.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-object-mapper) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-object-mapper.svg)](https://travis-ci.org/npmtest/node-npmtest-object-mapper)
 
 #### Copy properties from one object to another.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-object-mapper/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-object-mapper/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-object-mapper/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-object-mapper/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-object-mapper/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-object-mapper/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-object-mapper/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-object-mapper/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-object-mapper/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-object-mapper/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-object-mapper/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-object-mapper/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
     "scripts": {
         "test": "node test/test.js"
     },
-    "version": "3.0.1"
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
